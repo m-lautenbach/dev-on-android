@@ -4,6 +4,6 @@ var app = express()
 
 app.use(express.static('public'))
 
-app.listen(8080, function () {
-  console.log('listening on port 8080')
+app.listen(80, function () {
+  console.log('listening on port 80')
 })
